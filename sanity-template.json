@@ -2,7 +2,11 @@
     "version": 2,
     "title": "create-react-app blog starter",
     "description": "This starter creates a blog using create-react-app",
-   
+    "previewMedia": {
+        "type": "image",
+        "src": "assets/thumb.webp",
+        "alt": "React and Sanity together."
+    },
     "technologies": [
       {
         "id": "netlify",
@@ -47,7 +51,12 @@
             "base": "web",
             "dir": "./build",
             "cmd": "npm run build"
-          }
+          },
+            "previewMedia": {
+                "type": "image",
+                "src": "assets/site-screen.jpg",
+                "alt": "A preview image of the webpage."
+            }
         }
       ]
     }
