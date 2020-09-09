@@ -2,11 +2,7 @@
     "version": 2,
     "title": "create-react-app blog starter",
     "description": "This starter creates a blog using create-react-app",
-    "previewMedia": {
-      "type": "image",
-      "src": "assets/netlify.png",
-      "alt": "Netlify"
-    },
+   
     "technologies": [
       {
         "id": "netlify",
@@ -51,11 +47,6 @@
             "base": "web",
             "dir": "./public",
             "cmd": "npm run build"
-          },
-          "previewMedia": {
-            "type": "image",
-            "src": "assets/frontend.png",
-            "alt": "A preview image of the webpage."
           }
         }
       ]
