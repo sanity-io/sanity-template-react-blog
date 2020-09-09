@@ -7,7 +7,7 @@
   "author": "Kapehe Jorgenson <kapehe@sanity.io>",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "npx sanity",
+    "build": "npx sanity build",
     "start": "npx sanity start",
     "test": "npx sanity check"
   },
