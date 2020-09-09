@@ -45,7 +45,7 @@
           "dir": "./web",
           "buildSettings": {
             "base": "web",
-            "dir": "./public",
+            "dir": "./build",
             "cmd": "npm run build"
           }
         }
