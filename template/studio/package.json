@@ -1,6 +1,5 @@
 {
-  "name": "mysanityblog",
-  "private": true,
+  "name": "sanity-studio",
   "version": "1.0.0",
   "description": "",
   "main": "package.json",

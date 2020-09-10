@@ -1,0 +1,19 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build --parallel",
+    "dev": "lerna run start --parallel",
+    "build-studio": "lerna bootstrap && cd studio && npm run build",
+    "build-web": "lerna bootstrap && cd web && npm run build",
+    "postinstall": "lerna bootstrap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
